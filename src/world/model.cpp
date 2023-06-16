@@ -16,6 +16,21 @@ cg::world::model::~model() {}
 
 void cg::world::model::load_obj(const std::filesystem::path& model_path)
 {
+	tinyobj::ObjReaderConfig reader_config;
+	reader_config.mtl_search_path = model_path.parent_path().string();
+	reader_config.triangulate = true;
+
+	tinyobj::ObjReader reader;
+	if (!reader.ParseFromFile(model_path.string(), reader_config) {
+		if (!reader.Error().empty())
+		{
+			THROW_ERROR(reader.Error());
+		
+		}
+	}
+
+	auto& shape = reader.Get;
+
 	// TODO Lab: 1.03 Using `tinyobjloader` implement `load_obj`, `allocate_buffers`, `compute_normal`, `fill_vertex_data`, `fill_buffers`, `get_vertex_buffers`, `get_index_buffers` methods of `cg::world::model` class
 }
 
