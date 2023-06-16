@@ -1,0 +1,5 @@
+C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/Rasterization.dir
+C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/Raytracing.dir
+C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/DirectX12.dir
+C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/ZERO_CHECK.dir

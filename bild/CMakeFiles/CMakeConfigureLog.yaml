@@ -1,0 +1,439 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine ўҐабЁЁ 16.11.2+f32259642 ¤«п .NET Framework
+      (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+      
+      ‘Ў®аЄ  ­ з в  16.06.2023 18:09:50.
+      Џа®ҐЄв "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\3.27.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      PrepareForBuild:
+        ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\".
+        ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ‘®§¤ ­ЁҐ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\3.27.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ” ©« "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+        ЋЎа йҐ­ЁҐ Є "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\3.27.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      
+      ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+          ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+          ЋиЁЎ®Є: 0
+      
+      Џа®и«® ўаҐ¬Ґ­Ё 00:00:03.20
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/3.27.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine ўҐабЁЁ 16.11.2+f32259642 ¤«п .NET Framework
+      (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+      
+      ‘Ў®аЄ  ­ з в  16.06.2023 18:09:55.
+      Џа®ҐЄв "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\3.27.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      PrepareForBuild:
+        ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\".
+        ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ‘®§¤ ­ЁҐ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\3.27.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ” ©« "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+        ЋЎа йҐ­ЁҐ Є "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\3.27.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      
+      ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+          ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+          ЋиЁЎ®Є: 0
+      
+      Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.32
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/3.27.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-icr2d0"
+      binary: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-icr2d0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-icr2d0'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_beaee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine ўҐабЁЁ 16.11.2+f32259642 ¤«п .NET Framework
+        (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+        
+        ‘Ў®аЄ  ­ з в  16.06.2023 18:09:58.
+        Џа®ҐЄв "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-icr2d0\\cmTC_beaee.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_beaee.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-icr2d0\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_beaee.dir\\Debug\\cmTC_beaee.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_beaee.dir\\Debug\\cmTC_beaee.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_beaee.dir\\Debug\\\\" /Fd"cmTC_beaee.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.29.30147 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_beaee.dir\\Debug\\\\" /Fd"cmTC_beaee.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-icr2d0\\Debug\\cmTC_beaee.exe" /INCREMENTAL /ILK:"cmTC_beaee.dir\\Debug\\cmTC_beaee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-icr2d0/Debug/cmTC_beaee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-icr2d0/Debug/cmTC_beaee.lib" /MACHINE:X64  /machine:x64 cmTC_beaee.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_beaee.vcxproj -> C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-icr2d0\\Debug\\cmTC_beaee.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_beaee.dir\\Debug\\cmTC_beaee.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_beaee.dir\\Debug\\cmTC_beaee.tlog\\cmTC_beaee.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-icr2d0\\cmTC_beaee.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.26
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-czoref"
+      binary: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-czoref"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-czoref'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b7680.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine ўҐабЁЁ 16.11.2+f32259642 ¤«п .NET Framework
+        (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+        
+        ‘Ў®аЄ  ­ з в  16.06.2023 18:10:01.
+        Џа®ҐЄв "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-czoref\\cmTC_b7680.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_b7680.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-czoref\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_b7680.dir\\Debug\\cmTC_b7680.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_b7680.dir\\Debug\\cmTC_b7680.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b7680.dir\\Debug\\\\" /Fd"cmTC_b7680.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.29.30147 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b7680.dir\\Debug\\\\" /Fd"cmTC_b7680.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-czoref\\Debug\\cmTC_b7680.exe" /INCREMENTAL /ILK:"cmTC_b7680.dir\\Debug\\cmTC_b7680.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-czoref/Debug/cmTC_b7680.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-czoref/Debug/cmTC_b7680.lib" /MACHINE:X64  /machine:x64 cmTC_b7680.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b7680.vcxproj -> C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-czoref\\Debug\\cmTC_b7680.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_b7680.dir\\Debug\\cmTC_b7680.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_b7680.dir\\Debug\\cmTC_b7680.tlog\\cmTC_b7680.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-czoref\\cmTC_b7680.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:32 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-cyjkgj"
+      binary: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-cyjkgj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-cyjkgj'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_a390a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine ўҐабЁЁ 16.11.2+f32259642 ¤«п .NET Framework
+        (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+        
+        ‘Ў®аЄ  ­ з в  16.06.2023 18:10:03.
+        Џа®ҐЄв "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-cyjkgj\\cmTC_a390a.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_a390a.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-cyjkgj\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_a390a.dir\\Debug\\cmTC_a390a.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_a390a.dir\\Debug\\cmTC_a390a.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_a390a.dir\\Debug\\\\" /Fd"cmTC_a390a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-cyjkgj\\OpenMPTryFlag.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.29.30147 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          OpenMPTryFlag.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_a390a.dir\\Debug\\\\" /Fd"cmTC_a390a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-cyjkgj\\OpenMPTryFlag.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-cyjkgj\\Debug\\cmTC_a390a.exe" /INCREMENTAL /ILK:"cmTC_a390a.dir\\Debug\\cmTC_a390a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-cyjkgj/Debug/cmTC_a390a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-cyjkgj/Debug/cmTC_a390a.lib" /MACHINE:X64  /machine:x64 cmTC_a390a.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_a390a.vcxproj -> C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-cyjkgj\\Debug\\cmTC_a390a.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_a390a.dir\\Debug\\cmTC_a390a.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_a390a.dir\\Debug\\cmTC_a390a.tlog\\cmTC_a390a.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-cyjkgj\\cmTC_a390a.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:32 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-vfl960"
+      binary: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-vfl960"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-vfl960'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_d9d45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine ўҐабЁЁ 16.11.2+f32259642 ¤«п .NET Framework
+        (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+        
+        ‘Ў®аЄ  ­ з в  16.06.2023 18:10:06.
+        Џа®ҐЄв "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-vfl960\\cmTC_d9d45.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_d9d45.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-vfl960\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_d9d45.dir\\Debug\\cmTC_d9d45.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_d9d45.dir\\Debug\\cmTC_d9d45.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_d9d45.dir\\Debug\\\\" /Fd"cmTC_d9d45.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-vfl960\\OpenMPTryFlag.cpp"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.29.30147 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          OpenMPTryFlag.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_d9d45.dir\\Debug\\\\" /Fd"cmTC_d9d45.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-vfl960\\OpenMPTryFlag.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-vfl960\\Debug\\cmTC_d9d45.exe" /INCREMENTAL /ILK:"cmTC_d9d45.dir\\Debug\\cmTC_d9d45.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-vfl960/Debug/cmTC_d9d45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-vfl960/Debug/cmTC_d9d45.lib" /MACHINE:X64  /machine:x64 cmTC_d9d45.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_d9d45.vcxproj -> C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-vfl960\\Debug\\cmTC_d9d45.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_d9d45.dir\\Debug\\cmTC_d9d45.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_d9d45.dir\\Debug\\cmTC_d9d45.tlog\\cmTC_d9d45.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-vfl960\\cmTC_d9d45.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.82
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:32 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-i7h411"
+      binary: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-i7h411"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-i7h411'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_a8c51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine ўҐабЁЁ 16.11.2+f32259642 ¤«п .NET Framework
+        (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+        
+        ‘Ў®аЄ  ­ з в  16.06.2023 18:10:09.
+        Џа®ҐЄв "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-i7h411\\cmTC_a8c51.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_a8c51.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-i7h411\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_a8c51.dir\\Debug\\cmTC_a8c51.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_a8c51.dir\\Debug\\cmTC_a8c51.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_a8c51.dir\\Debug\\\\" /Fd"cmTC_a8c51.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-i7h411\\OpenMPCheckVersion.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.29.30147 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          OpenMPCheckVersion.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_a8c51.dir\\Debug\\\\" /Fd"cmTC_a8c51.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-i7h411\\OpenMPCheckVersion.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-i7h411\\Debug\\cmTC_a8c51.exe" /INCREMENTAL /ILK:"cmTC_a8c51.dir\\Debug\\cmTC_a8c51.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-i7h411/Debug/cmTC_a8c51.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-i7h411/Debug/cmTC_a8c51.lib" /MACHINE:X64  /machine:x64 cmTC_a8c51.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_a8c51.vcxproj -> C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-i7h411\\Debug\\cmTC_a8c51.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_a8c51.dir\\Debug\\cmTC_a8c51.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_a8c51.dir\\Debug\\cmTC_a8c51.tlog\\cmTC_a8c51.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-i7h411\\cmTC_a8c51.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.73
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:32 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-mp22gb"
+      binary: "C:/Users/\u041e\u043b\u044c\u0433\u0430/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-mp22gb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ольга/Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-mp22gb'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_ab90f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine ўҐабЁЁ 16.11.2+f32259642 ¤«п .NET Framework
+        (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+        
+        ‘Ў®аЄ  ­ з в  16.06.2023 18:10:11.
+        Џа®ҐЄв "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-mp22gb\\cmTC_ab90f.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_ab90f.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-mp22gb\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_ab90f.dir\\Debug\\cmTC_ab90f.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_ab90f.dir\\Debug\\cmTC_ab90f.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_ab90f.dir\\Debug\\\\" /Fd"cmTC_ab90f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-mp22gb\\OpenMPCheckVersion.cpp"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.29.30147 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          OpenMPCheckVersion.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_ab90f.dir\\Debug\\\\" /Fd"cmTC_ab90f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-mp22gb\\OpenMPCheckVersion.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-mp22gb\\Debug\\cmTC_ab90f.exe" /INCREMENTAL /ILK:"cmTC_ab90f.dir\\Debug\\cmTC_ab90f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-mp22gb/Debug/cmTC_ab90f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Documents/GitHub/CGGD/bild/CMakeFiles/CMakeScratch/TryCompile-mp22gb/Debug/cmTC_ab90f.lib" /MACHINE:X64  /machine:x64 cmTC_ab90f.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_ab90f.vcxproj -> C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-mp22gb\\Debug\\cmTC_ab90f.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_ab90f.dir\\Debug\\cmTC_ab90f.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_ab90f.dir\\Debug\\cmTC_ab90f.tlog\\cmTC_ab90f.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\Ћ«мЈ \\Documents\\GitHub\\CGGD\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-mp22gb\\cmTC_ab90f.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:04.46
+        
+      exitCode: 0
+...

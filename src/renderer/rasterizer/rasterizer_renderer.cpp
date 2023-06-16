@@ -5,6 +5,12 @@
 
 void cg::renderer::rasterization_renderer::init()
 {
+	rasterizer = std::make_shared<
+			cg::renderer::rasterizer<cg::vertex, cg::unsigned_color>>();
+	rasterizer->set_viewport(
+			settings->width, settings->height);
+	render_target = std::make_shared<cg::resource<cg::unsigned_color>>(settings->width, settings->height);
+	rasterizer->set_render_target(render_target);
 	// TODO Lab: 1.02 Implement image clearing & saving in `cg::renderer::rasterization_renderer` class
 	// TODO Lab: 1.03 Adjust `cg::renderer::rasterization_renderer` class to consume `cg::world::model`
 	// TODO Lab: 1.04 Setup an instance of camera `cg::world::camera` class in `cg::renderer::rasterization_renderer`
@@ -12,6 +18,13 @@ void cg::renderer::rasterization_renderer::init()
 }
 void cg::renderer::rasterization_renderer::render()
 {
+	auto start = std::chrono::high_resolution_clock::now();
+	rasterizer->clear_render_target({0,0,0});
+	auto stop = std::chrono::high_resolution_clock::now();
+	std::chrono::duration<float, std::milli> duration = stop - start;
+	std::cout << "Rasterazation took" << duration.count() << "\n";
+
+	cg::utils::save_resource(*render_target, settings->result_path);
 	// TODO Lab: 1.02 Implement image clearing & saving in `cg::renderer::rasterization_renderer` class
 	// TODO Lab: 1.04 Implement `vertex_shader` lambda for the instance of `cg::renderer::rasterizer`
 	// TODO Lab: 1.05 Implement `pixel_shader` lambda for the instance of `cg::renderer::rasterizer`

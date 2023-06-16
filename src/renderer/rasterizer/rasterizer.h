@@ -54,6 +54,8 @@ namespace cg::renderer
 	{
 		// TODO Lab: 1.02 Implement `set_render_target`, `set_viewport`, `clear_render_target` methods of `cg::renderer::rasterizer` class
 		// TODO Lab: 1.06 Adjust `set_render_target`, and `clear_render_target` methods of `cg::renderer::rasterizer` class to consume a depth buffer
+		if (in_render_target)
+			render_target = in_render_target
 	}
 
 	template<typename VB, typename RT>
@@ -68,6 +70,16 @@ namespace cg::renderer
 	{
 		// TODO Lab: 1.02 Implement `set_render_target`, `set_viewport`, `clear_render_target` methods of `cg::renderer::rasterizer` class
 		// TODO Lab: 1.06 Adjust `set_render_target`, and `clear_render_target` methods of `cg::renderer::rasterizer` class to consume a depth buffer
+		if (render_target) {
+			for (size_t i = 0; i < render_target->get_namber_of_elements(); i++)
+			{
+				render_target->item(i) = in_clear_value;
+			
+			}
+		
+		}
+
+
 	}
 
 	template<typename VB, typename RT>
