@@ -164,7 +164,7 @@ void model::fill_buffers(const std::vector<tinyobj::shape_t>& shapes, const tiny
 
 			for (size_t v = 0; v < fv; v++) {
 				
-				auto& idx = mesh.indices[index_offset+v]
+				auto& idx = mesh.indices[index_offset + v];
 				auto idx_tuple = std::make_tuple(
 						idx.vertex_index,
 						idx.normal_index,
