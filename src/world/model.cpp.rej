@@ -1,0 +1,24 @@
+diff a/src/world/model.cpp b/src/world/model.cpp	(rejected hunks)
+@@ -21,15 +21,20 @@
+ 	reader_config.triangulate = true;
+ 
+ 	tinyobj::ObjReader reader;
+-	if (!reader.ParseFromFile(model_path.string(), reader_config) {
++	if (!reader.ParseFromFile(model_path.string(), reader_config)) {
+ 		if (!reader.Error().empty())
+ 		{
+ 			THROW_ERROR(reader.Error());
+ 		
+ 		}
+ 	}
++	auto& shape = reader.GetShapes();
++	auto& attrib = reader.GetAttrib();
++	auto& materials = reader.GetMaterials();
+ 
+-	auto& shape = reader.Get;
++	allocate_buffers(shape);
++	fill_buffers(shape, attrib, materials,
++				 model_path.parent_path());
+ 
+ 	// TODO Lab: 1.03 Using `tinyobjloader` implement `load_obj`, `allocate_buffers`, `compute_normal`, `fill_vertex_data`, `fill_buffers`, `get_vertex_buffers`, `get_index_buffers` methods of `cg::world::model` class
+ }
