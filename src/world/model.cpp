@@ -105,9 +105,9 @@ float3 cg::world::model::compute_normal(const tinyobj::attrib_t& attrib, const t
 
 void model::fill_vertex_data(cg::vertex& vertex, const tinyobj::attrib_t& attrib, const tinyobj::index_t idx, const float3 computed_normal, const tinyobj::material_t material)
 {
-	vertex.x = attrib.vertices[3 * idx.vertex_index];
-	vertex.y = attrib.vertices[3 * idx.vertex_index + 1];
-	vertex.z = attrib.vertices[3 * idx.vertex_index + 2];
+	vertex.nx = attrib.normals[3 * idx.normal_index];
+	vertex.ny = attrib.normals[3 * idx.normal_index + 1];
+	vertex.nz = attrib.normals[3 * idx.normal_index + 2];
 
 	if (idx.normal_index < 0) {
 		vertex.nx = computed_normal.x;
@@ -170,6 +170,7 @@ void model::fill_buffers(const std::vector<tinyobj::shape_t>& shapes, const tiny
 						idx.normal_index,
 						idx.texcoord_index);
 
+
 				if (index_map.count(idx_tuple) == 0) {
 					cg::vertex& vertex = vertex_buffer->item(vertex_buffer_id);
 					const auto& material = materials[mesh.material_ids[f]];
@@ -184,6 +185,7 @@ void model::fill_buffers(const std::vector<tinyobj::shape_t>& shapes, const tiny
 			}
 			index_offset += fv;
 		}
+		
 		if (!materials[mesh.material_ids[0]].diffuse_texname.empty()) {
 			textures[s] = base_folder / materials[mesh.material_ids[0]].diffuse_texname;
 		}
