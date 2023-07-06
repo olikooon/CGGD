@@ -105,26 +105,30 @@ float3 cg::world::model::compute_normal(const tinyobj::attrib_t& attrib, const t
 
 void model::fill_vertex_data(cg::vertex& vertex, const tinyobj::attrib_t& attrib, const tinyobj::index_t idx, const float3 computed_normal, const tinyobj::material_t material)
 {
-	vertex.nx = attrib.normals[3 * idx.normal_index];
-	vertex.ny = attrib.normals[3 * idx.normal_index + 1];
-	vertex.nz = attrib.normals[3 * idx.normal_index + 2];
+	vertex.x = attrib.vertices[3 * idx.vertex_index];
+	vertex.y = attrib.vertices[3 * idx.vertex_index + 1];
+	vertex.z = attrib.vertices[3 * idx.vertex_index + 2];
 
-	if (idx.normal_index < 0) {
+	if (idx.normal_index < 0)
+	{
 		vertex.nx = computed_normal.x;
 		vertex.ny = computed_normal.y;
 		vertex.nz = computed_normal.z;
 	}
-	else {
-		vertex.nx = attrib.vertices[3 * idx.normal_index];
-		vertex.ny = attrib.vertices[3 * idx.normal_index + 1];
-		vertex.nz = attrib.vertices[3 * idx.normal_index + 2];
+	else
+	{
+		vertex.nx = attrib.normals[3 * idx.normal_index];
+		vertex.ny = attrib.normals[3 * idx.normal_index + 1];
+		vertex.nz = attrib.normals[3 * idx.normal_index + 2];
 	}
 
-	if (idx.texcoord_index < 0) {
+	if (idx.texcoord_index < 0)
+	{
 		vertex.u = 0.f;
 		vertex.v = 0.f;
 	}
-	else {
+	else
+	{
 		vertex.u = attrib.texcoords[2 * idx.texcoord_index];
 		vertex.v = attrib.texcoords[2 * idx.texcoord_index + 1];
 	}
@@ -140,7 +144,6 @@ void model::fill_vertex_data(cg::vertex& vertex, const tinyobj::attrib_t& attrib
 	vertex.emissive_r = material.emission[0];
 	vertex.emissive_g = material.emission[1];
 	vertex.emissive_b = material.emission[2];
-
 }
 
 void model::fill_buffers(const std::vector<tinyobj::shape_t>& shapes, const tinyobj::attrib_t& attrib, const std::vector<tinyobj::material_t>& materials, const std::filesystem::path& base_folder)

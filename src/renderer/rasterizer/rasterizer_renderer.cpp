@@ -12,7 +12,7 @@ void cg::renderer::rasterization_renderer::init()
 	
 	render_target = std::make_shared<cg::resource<cg::unsigned_color>>(settings->width, settings->height);
 
-	depth_buffer = std::make_shared<cg::resource<float>>cg::unsigned_color>>(settings->width, settings->height);
+	depth_buffer = std::make_shared<cg::resource<float>>(settings->width, settings->height);
 
 	
 	rasterizer->set_render_target(render_target, depth_buffer);

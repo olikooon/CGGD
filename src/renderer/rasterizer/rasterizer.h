@@ -54,7 +54,7 @@ namespace cg::renderer
 	{
 		if (in_render_target)
 			render_target = in_render_target;
-		if (in_depth_buffer) {
+		if (in_depth_buffer)
 			depth_buffer = in_depth_buffer;
 	}
 
@@ -160,7 +160,7 @@ namespace cg::renderer
 					size_t u_y = static_cast<size_t>(y);
 
 					if (depth_test(depth, u_x, u_y)) {
-						auto pixel_result = pixel_shader(vertices[0], 0);
+						auto pixel_result = pixel_shader(vertices[0], depth);
 						render_target->item(u_x, u_y) = RT::from_color(pixel_result);
 						if (depth_buffer)
 							depth_buffer->item(u_x, u_y) = depth;
