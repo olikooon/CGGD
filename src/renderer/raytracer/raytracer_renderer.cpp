@@ -70,7 +70,7 @@ void cg::renderer::ray_tracing_renderer::render()
 
 	std::random_device random_device;
 	std::mt19937 random_generator(random_device());
-	std::uniform_real_distribution<float> uniform_distribution(-1.f, 1.f);
+	std::uniform_real_distribution<float> uniform_dist(-1.f, 1.f);
 
 	raytracer->closest_hit_shader = [&](const ray& ray, payload& payload,
 									   const triangle<cg::vertex>& triangle,
@@ -98,7 +98,7 @@ void cg::renderer::ray_tracing_renderer::render()
 		result_color += triangle.diffuse * playload_next.color.to_float3() *
 						std::max(dot(normal, to_next_object.direction), 0.f);
 
-		payload.color = cg::color::from_float3(triangle.ambient);
+		payload.color = cg::color::from_float3(result_color);
 		return payload;
 	};
 
