@@ -111,12 +111,13 @@ void cg::renderer::ray_tracing_renderer::render()
 		return payload;
 	};
 
-	shadow_raytracer->any_hit_shader = [](const ray& ray payload& payload, const triangle<cg::vertex>& triangle) {
+    shadow_raytracer->any_hit_shader = [](const ray& ray, payload& payload, const triangle<cg::vertex>& triangle) {
 		return payload;
 	};
 	
 	auto start = std::chrono::high_resolution_clock::now();
-	raytracer->ray_generation(camera->get_position(), camera->get_direction(),
+	raytracer->ray_generation(camera->get_position(), 
+		                      camera->get_direction(),
 							  camera->get_right(), camera->get_up(),
 							  settings->raytracing_depth,
 							  settings->accumulation_num);
